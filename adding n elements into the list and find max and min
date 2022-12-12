@@ -1,0 +1,8 @@
+#adding n elements into the list
+l=[]
+n=int(input("enter the n value:"))
+for i in range (n):
+    x=int(input("enter the element:"))
+    l.append(x)
+print(max(l))
+print(min(l))
